@@ -1,0 +1,95 @@
+
+.main-casino, .main-banca, .main-thethao, .main-xoso, .main-esport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.casino-content, .banca-content, .thethao-content, .xoso-content, .esport-content {
+    max-width: 85%;
+}
+
+.casino-item, .banca-item, .thethao-item, .xoso-item, .esport-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: white;
+}
+
+.casino-item h1, .banca-item h1, .thethao-item h1, .xoso-item h1, .esport-item h1{
+    font-size: 25px;
+    font-weight: 600;
+    color:  #f69b12;
+}
+.casino-item h2, .banca-item h2, .thethao-item h2, .xoso-item h2, .esport-item h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color:  #f69b12;
+    text-align: center;
+}
+.casino-item h3, .banca-item h3, .thethao-item h3, .xoso-item h3, .esport-item h3{
+    font-size: 18px;
+    font-weight: 600;
+    color:  #f69b12;
+    margin-top: 3px;
+}
+
+.casino-item i span, .banca-item i span, .thethao-item i span, .xoso-item i span, .esport-item i span{
+    color:  #f69b12;
+    font-weight: 600;
+}
+.casino-item p span, .banca-item p span, .thethao-item p span, .xoso-item p span, .esport-item p span{
+    color:  #f69b12;
+    font-weight: 600;
+}
+.casino-item span, .banca-item span, .thethao-item span, .xoso-item span, .esport-item span{
+    font-weight: 600;
+}
+.casino-img, .banca-img, .thethao-img, .xoso-img, .esport-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.casino-img-items, .banca-img-items, .thethao-img-itmes, .xoso-img-items, .esport-img-items{
+    background-color: #921719;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.casino-img-items i, .banca-img-items i, .thethao-img-itmes i, .xoso-img-items i, .esport-img-items i{
+   padding: 5px;
+}
+
+
+/*==================== thethao page css ===================== */
+.thethao-item .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+.thethao-item .box-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.thethao-item .box .box-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.thethao-item .box .box-item h3{
+    font-size: 15px;
+    font-weight: 600;
+    color:  #f69b12;
+    text-align: center;
+}
+.thethao-item .box .box-item p{
+    font-size: 15px;
+}

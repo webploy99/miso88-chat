@@ -1,0 +1,99 @@
+.main-instruct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.instruct-content {
+    max-width: 85%;
+}
+
+.instruct-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: white;
+}
+
+.instruct-item title{
+
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    color:  #f69b12;
+    text-align: center;
+}
+.instruct-item h1{
+    font-size: 25px;
+    font-weight: 600;
+    color:  #f69b12;
+}
+.instruct-item h2{
+    font-size: 15px;
+    font-weight: 500;
+    color:  #f69b12;
+    text-align: center;
+}
+.instruct-item h3{
+    font-size: 18px;
+    font-weight: 600;
+    color:  #f69b12;
+    margin-top: 3px;
+}
+.instruct-item h4{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 3px;
+    }
+.instruct-item h4 span{
+    font-weight: 600;
+    color:  #f69b12;
+}
+
+.instruct-item i span{
+    color:  #f69b12;
+    font-weight: 600;
+}
+
+.instruct-item .post{
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.instruct-item .post span{
+    color:  #f69b12;
+}
+
+.instruct-item p span{
+    color:  #f69b12;
+    font-weight: 600;
+}
+
+.instruct-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instruct-img-items{
+    max-width: 100%;
+    background-color: #921719;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruct-img-items i{
+   padding: 5px;
+}
+.list-style {
+    list-style-type: decimal;
+}
+.list-style li{
+    margin-top: 15px;
+}
